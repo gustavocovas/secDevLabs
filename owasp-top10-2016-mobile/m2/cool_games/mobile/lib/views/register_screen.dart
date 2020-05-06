@@ -125,6 +125,7 @@ class RegisterScreen extends StatelessWidget {
                           }
                           return null;
                         },
+                        obscureText: true,
                         decoration: InputDecoration(
                           labelText: 'Password',
                           contentPadding: EdgeInsets.all(10),
